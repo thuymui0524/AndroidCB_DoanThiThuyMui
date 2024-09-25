@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+
+    <TextView
+        android:id="@+id/textViewFah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fahrenheit"
+        android:textSize="18sp"
+        android:padding="12dp"
+
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/etFah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="nhập độ F:"
+        android:inputType="text"
+        android:padding="20dp" />
+
+
+    <TextView
+        android:id="@+id/textViewCel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Celcius"
+        android:textSize="18sp"
+        android:padding="12dp"
+
+        android:textColor="@android:color/black" />
+    <EditText
+        android:id="@+id/etCel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="nhập độ C:"
+        android:inputType="text"
+        android:padding="20dp" />
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="20dp">
+
+        <Button
+            android:id="@+id/btnFah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Convert To Fahrenheit"
+            android:padding="15dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/shape"/>
+
+        <Button
+            android:id="@+id/btnCel"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="Convert To Celcius"
+            android:padding="15dp"
+            android:background="@drawable/shape"/>
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnClear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Clear"
+        android:padding="15dp"
+        android:background="@drawable/shape"
+        />
+</LinearLayout>

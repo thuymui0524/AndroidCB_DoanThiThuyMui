@@ -1,0 +1,78 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <EditText
+        android:id="@+id/etnumA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="nhập số A"
+        android:inputType="text"
+        android:padding="20dp" />
+
+
+    <EditText
+        android:id="@+id/etnumB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="nhập số B"
+        android:inputType="text"
+        android:padding="20dp" />
+    <TextView
+        android:id="@+id/tvresult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="16dp" />
+    <Button
+        android:id="@+id/btnCal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tổng hai số"
+        android:padding="20dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/shape"/>
+    <Button
+        android:id="@+id/btnDif"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hiệu hai số"
+        android:padding="20dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/shape"/>
+    <Button
+        android:id="@+id/btnPro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tích 2 số"
+        android:padding="20dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/shape"/>
+    <Button
+        android:id="@+id/btnQuo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thương hai số"
+        android:padding="20dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/shape"/>
+    <Button
+        android:id="@+id/btnGcd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UCLN "
+        android:padding="20dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/shape"/>
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="thoát chương trình"
+        android:padding="20dp"
+        android:background="@drawable/shape"/>
+</LinearLayout>
