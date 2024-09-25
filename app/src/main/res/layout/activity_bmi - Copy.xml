@@ -1,0 +1,110 @@
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="1"
+
+    android:layout_gravity="center">
+    <TextView
+        android:gravity="center"
+        android:hint="chương trình tính chỉ số BMI"
+        android:textSize="24dp"
+        android:layout_marginBottom="100dp"
+        android:textColor="@color/black">
+
+    </TextView>
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nhập tên:"
+            android:padding="8dp" />
+
+        <EditText
+            android:id="@+id/etname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="nhập tên:"
+            android:inputType="text"
+            android:padding="20dp" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cân nặng (kg):"
+            android:padding="8dp" />
+
+        <EditText
+            android:id="@+id/etWeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="nhập cân nặng:"
+            android:inputType="text"
+            android:padding="20dp" />
+    </TableRow>
+
+
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chiều cao (m):"
+            android:padding="8dp" />
+
+
+        <EditText
+            android:id="@+id/etHeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="nhập chiều cao:"
+            android:inputType="numberDecimal"
+            android:padding="20dp" />
+    </TableRow>
+
+
+    <TableRow>
+        <Button
+            android:id="@+id/btnCal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tính BMI"
+            android:background="@drawable/shape"
+             />
+    </TableRow>
+
+
+    <TableRow>
+        <TextView
+            android:id="@+id/tvresult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BMI="
+            android:padding="8dp"
+             />
+        <EditText
+            android:id="@+id/etbmi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="kết quả"
+            android:inputType="text"
+            android:padding="20dp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/tvchuandoan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chuẩn đoán:"
+            android:padding="8dp"
+             />
+        <EditText
+            android:id="@+id/etchuandoan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="kết quả"
+            android:inputType="text"
+            android:padding="20dp" />
+    </TableRow>
+</TableLayout>
