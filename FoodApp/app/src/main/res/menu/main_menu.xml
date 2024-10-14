@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android2="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res-auto"
+    tools:ignore="NamespaceTypo">
+
+    <item
+        android:id="@+id/action_add"
+        android:title="action_add"
+        android:icon="@drawable/ic_add"
+        android:showAsAction="ifRoom"
+        android2:title="TODO" />
+    <item
+        android:id="@+id/action_edit"
+        android:title="action_edit"
+        android:icon="@drawable/ic_edit"
+        android:showAsAction="ifRoom"
+        tools:ignore="MenuTitle" />
+    <item
+        android:id="@+id/action_delete"
+        android:title="action_delete"
+        android:icon="@drawable/ic_delete"
+        android:showAsAction="ifRoom"
+        tools:ignore="MenuTitle" />
+    <item
+        android:id="@+id/action_settings"
+        android:title="action_settings"
+        android:showAsAction="never"
+        tools:ignore="MenuTitle" />
+</menu>
